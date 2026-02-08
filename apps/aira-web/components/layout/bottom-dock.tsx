@@ -37,7 +37,7 @@ export function BottomDock({ className }: BottomDockProps) {
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: 'spring', stiffness: 120, damping: 18 }}
-        className="relative flex items-center gap-10 rounded-t-3xl border border-border w-full  justify-center bg-card px-8 py-2  backdrop-blur-xl shadow-xl"
+        className="relative flex items-center gap-10 rounded-3xl border border-border w-full  justify-center bg-card px-8 py-3  backdrop-blur-xl shadow-xl"
       >
         {/* Home */}
         <Link href={ROUTES.HUB} className="flex flex-col items-center gap-1">
